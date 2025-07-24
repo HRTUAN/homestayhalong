@@ -33,9 +33,6 @@ export async function GET() {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ query }),
-    next: {
-      revalidate: 3600,
-    },
   });
 
   const json = await res.json();
