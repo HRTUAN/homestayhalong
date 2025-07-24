@@ -1,0 +1,17 @@
+.rating-box {
+  background-color: #003b95;
+  border-radius: 0.5rem 0.5rem 0.5rem 0;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+}
+.button-review {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid black;
+  border-radius: 4px;
+}

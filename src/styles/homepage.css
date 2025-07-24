@@ -1,0 +1,82 @@
+.button-review {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.filter-button {
+  border: 1px solid #0d6efd;
+  background-color: #fff;
+  color: #0d6efd;
+  padding: 0.6rem 1rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.filter-button.active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+.filter-button.active:hover {
+  background-color: #0142a2;
+}
+.filter-button:hover {
+  background-color: #006ce40f;
+}
+.rating-box {
+  width: 32px;
+  height: 32px;
+  background-color: #003b95;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.item-home:hover {
+  background-color: #006ce40f;
+}
+.item-home a h3:hover {
+  text-decoration: underline;
+  color: #bc5b01;
+}
+
+/* review */
+
+input[type="checkbox"]:checked ~ .review-box {
+  display: block;
+}
+
+input[type="checkbox"]:checked ~ .show-less {
+  display: inline;
+}
+
+input[type="checkbox"]:checked ~ .show-more {
+  display: none;
+}
+
+/* section-7 */
+.question-item:not(:first-child) {
+  border-top: 1px solid #dee2e6;
+}
+
+.transition {
+  transition: transform 0.3s ease;
+}
+
+.icon-rotate.rotate {
+  transform: rotate(180deg);
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
+.transition {
+  transition: transform 0.3s;
+}
