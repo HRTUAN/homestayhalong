@@ -53,9 +53,6 @@ export async function fetchRooms(slug = null) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ query }),
-    next: {
-      revalidate: 3600,
-    },
   });
 
   const json = await res.json();
